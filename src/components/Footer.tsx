@@ -8,7 +8,7 @@ export default function Footer() {
           QueenEagle<span className="text-seagreen">AI</span>
         </p>
         <p className="mt-2 font-body text-xs text-cream/50 sm:text-sm">
-          © 2026 QueenEagleAI · AI Automation Consultant and Engineer
+          © 2026 QueenEagleAI · AI Automation Consultant
         </p>
         <p className="mt-1 font-body text-xs text-cream/40 sm:text-sm">
           Designing the future of intelligent automation

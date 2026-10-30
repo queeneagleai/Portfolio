@@ -10,7 +10,7 @@ export default function About() {
 
       <div className="space-y-5 font-body text-sm leading-relaxed text-cream/80 sm:text-base">
         <p>
-          I'm Queen Ikwuji, an AI Automation Consultant and Engineer
+          I'm Queen Ikwuji, an AI Automation Consultant
           specializing in n8n, AI agents, and business process automation.
         </p>
         <p>

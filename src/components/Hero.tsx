@@ -26,7 +26,7 @@ export default function Hero() {
         <div className="absolute inset-0 rounded-full border-2 border-gold shadow-[0_0_40px_rgba(227,190,85,0.25)]">
           <img
             src="/queen-ikwuji.jpg"
-            alt="Queen Ikwuji — AI Automation Consultant and Engineer"
+            alt="Queen Ikwuji — AI Automation Consultant"
             className="h-full w-full rounded-full object-cover"
           />
         </div>
@@ -63,10 +63,10 @@ export default function Hero() {
         ✦ n8n · AI Agents · APIs
       </p>
 
-      <h1 className="font-display text-3xl leading-tight text-gold sm:text-4xl md:text-5xl">
+      <h1 className="font-display text-[1.7rem] leading-tight text-gold sm:text-[2rem] md:text-[2.6rem]">
         Queen Ikwuji
         <span className="block text-seagreen">
-          AI Automation Consultant and Engineer
+          AI Automation Consultant
         </span>
         <span className="block text-2xl text-cream sm:text-3xl md:text-4xl">
           Turning Complex Operations into Intelligent Systems
@@ -99,10 +99,11 @@ export default function Hero() {
         </a>
       </div>
 
-      <div className="mt-14 grid grid-cols-2 gap-6 sm:gap-16">
+      <div className="mt-14 grid grid-cols-3 gap-4 sm:gap-16">
         {[
           { value: "50+", label: "Workflows Built" },
           { value: "18+", label: "Clients Served" },
+          { value: "24/7", label: "Systems Running" },
         ].map((stat) => (
           <div key={stat.label}>
             <p className="font-display text-2xl text-gold sm:text-3xl">

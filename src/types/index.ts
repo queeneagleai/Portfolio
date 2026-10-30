@@ -16,6 +16,7 @@ export interface Project {
   description: string;
   githubUrl: string;
   imageUrl?: string;
+  ctaLabel?: string; // defaults to "View Workflow"
 }
 
 export interface ProcessStep {

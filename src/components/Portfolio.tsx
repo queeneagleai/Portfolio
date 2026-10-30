@@ -35,7 +35,7 @@ export default function Portfolio() {
               {project.description}
             </p>
             <span className="mt-5 inline-flex items-center gap-1 font-body text-sm text-gold transition-transform group-hover:translate-x-1">
-              View Workflow →
+              {project.ctaLabel ?? "View Workflow"} →
             </span>
           </a>
         ))}

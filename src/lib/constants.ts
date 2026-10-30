@@ -60,6 +60,23 @@ export const SERVICES: Service[] = [
 // is drafted from the title only. Replace with the real summary before going live.
 export const PROJECTS: Project[] = [
   {
+    category: "Agency Operations",
+    title: "Ruby AI CEO: An Early Warning System for a Marketing Agency",
+    description:
+      "AI agents watch client activity, invoices, ad results and team tasks, then send the owner one ranked morning brief on Telegram. Every priority shows its evidence, doubtful data is flagged for a human, and any failure sends an alert.",
+    githubUrl:
+      "https://github.com/queeneagleai/Ruby-AI-CEO-An-Early-Warning-System-for-a-Marketing-Agency",
+    ctaLabel: "View Case Study",
+  },
+  {
+    category: "AI / MCP",
+    title: "Claude MCP Business Data Assistant",
+    description:
+      "Claude question → custom MCP server → locked-down Postgres database → answer. Looks up customers, overdue invoices, and open tickets, and raises review flags only a human can approve. Built with row-level security so the AI never gets more access than it needs.",
+    githubUrl: "https://github.com/queeneagleai/claude-mcp-business-data-case-study",
+    ctaLabel: "View Case Study",
+  },
+  {
     category: "Operations",
     title: "AI Waste Collection Operations Automation",
     description:
