@@ -65,7 +65,7 @@ export const PROJECTS: Project[] = [
     description:
       "AI agents watch client activity, invoices, ad results and team tasks, then send the owner one ranked morning brief on Telegram. Every priority shows its evidence, doubtful data is flagged for a human, and any failure sends an alert.",
     githubUrl:
-      "https://github.com/queeneagleai/Ruby-AI-CEO-An-Early-Warning-System-for-a-Marketing-Agency",
+      "https://github.com/queeneagleai/Ruby-AI-CEO-An-Early-Warning-System-for-a-Marketing-Agency.",
     ctaLabel: "View Case Study",
   },
   {
